@@ -32,6 +32,17 @@ export default function Meme() {
         }))
     }
 
+    function handleChange(event) {
+        // Destructure the 'name' and 'value' properties from the event target
+        const { name, value } = event.target;
+
+        // Update the state of the meme object with the new text value
+        setMeme(prevMeme => ({
+            ...prevMeme,
+            [name]: value // Update the corresponding property of the object
+        }))
+    }
+
     return (
         <main>
             <div className="form">
