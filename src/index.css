@@ -20,17 +20,17 @@ main {
   padding: 20px;
 }
 
-.header--image {
+.header-image {
   height: 100%;
   margin-right: 6px;
 }
 
-.header--title {
+.header-title {
   font-size: 1.25rem;
   margin-right: auto;
 }
 
-.header--project {
+.header-project {
   font-size: 0.75rem;
   font-weight: 500;
 }
@@ -42,14 +42,14 @@ main {
   margin-bottom: 17px;
 }
 
-.form--input {
+.form-input {
   font-family: "Karla", sans-serif;
   border-radius: 5px;
   border: 1px solid #D5D4D8;
   text-indent: 5px;
 }
 
-.form--button {
+.form-button {
   grid-column: 1 / -1;
   font-family: "Karla", sans-serif;
   border-radius: 5px;
@@ -63,12 +63,12 @@ main {
   position: relative;
 }
 
-.meme--image {
+.meme-image {
   max-width: 100%;
   border-radius: 3px;
 }
 
-.meme--text {
+.meme-text {
   position: absolute;
   width: 80%;
   text-align: center;
